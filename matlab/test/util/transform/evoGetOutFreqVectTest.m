@@ -15,3 +15,9 @@ disp(evoGetOutFreqVect(1000, 1500)'); % 1 1000 1500
 disp(evoGetOutFreqVect(1000, 2000)'); % 1 1000 2000
 disp(evoGetOutFreqVect(1000, 2500)'); % 1 1000 2000 2500
 disp(evoGetOutFreqVect(1000, 3005)'); % 1 1000 2000 3000 3005
+
+%%
+disp(evoGetOutFreqVect(1000, 1)'); % 1
+disp(evoGetOutFreqVect(1000, 2)'); % 1 2
+disp(evoGetOutFreqVect(1000, 3)'); % 1 2 3
+disp(evoGetOutFreqVect(1000, 4)'); % 1 2 3 4
