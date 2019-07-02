@@ -1,6 +1,6 @@
 function outFreqVect = evoGetOutFreqVect(outFreq, maxFEval)
 % Get the Output Frequency Vector of function evaluations.
-if outFreq == 1
+if (outFreq == 1) || (maxFEval <= outFreq)
     outFreqVect = (1 : 1 : maxFEval)';
 else
     outFreqVect = (0 : outFreq : maxFEval)';
