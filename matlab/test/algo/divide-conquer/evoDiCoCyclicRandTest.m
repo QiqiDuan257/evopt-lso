@@ -8,6 +8,7 @@ funcParam.funcNumPart = 2;
 funcParam = evoDiCoCyclicRand(funcParam);
 disp(funcParam.funcPartSet{1}'); % 1 2 5 7
 disp(funcParam.funcPartSet{2}'); % 3 4 6
+disp(funcParam.funcNumFEval); % 0
 
 %%
 clear; clc;
@@ -18,6 +19,7 @@ funcParam = evoDiCoCyclicRand(funcParam);
 disp(funcParam.funcPartSet{1}'); % 2 3 4 7
 disp(funcParam.funcPartSet{2}'); % 1 6 9 10
 disp(funcParam.funcPartSet{3}'); % 5 8 11
+disp(funcParam.funcNumFEval); % 0
 
 %%
 clear; clc;
@@ -29,6 +31,7 @@ funcParam = evoDiCoCyclicRand(funcParam);
 disp(funcParam.funcPartSet{1}'); % 10 11 30
 disp(funcParam.funcPartSet{2}'); % 20 99
 disp(funcParam.funcPartSet{3}'); % 21 31
+disp(funcParam.funcNumFEval); % 0
 
 %% `funcDim` should be a field of `funcParam`.
 clear; clc;
