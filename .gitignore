@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+### ignore all files of saving FEval curve ###
+.evoFEvalFolder/
+
+### ignore all files of saving rotation and shift data ###
+.evoRatationShift/
