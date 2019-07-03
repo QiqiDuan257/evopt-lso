@@ -52,4 +52,5 @@ for p = 1 : length(funcPartSet)
     funcPartSet{p} = sort(funcPartSet{p});
 end
 funcParam.funcPartSet = funcPartSet;
+funcParam.funcNumFEval = 0;
 end
