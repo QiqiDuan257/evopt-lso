@@ -108,3 +108,6 @@ venv.bak/
 
 ### ignore all files of saving rotation and shift data ###
 .evoRatationShift/
+
+### ignore all files of the original algorithm ###
+.evoOrigAlgo/
