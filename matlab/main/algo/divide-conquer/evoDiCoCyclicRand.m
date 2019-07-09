@@ -39,13 +39,11 @@ end
 
 funcPartSet = cell(funcNumPart, 1);
 for d = 1 : numel(funcDimSet)
-    if rem(d, funcNumPart) == 0
-        funcPartSet{funcNumPart} = cat(1, funcPartSet{funcNumPart}, ...
-            funcDimSet(d));
-    else
-        funcPartSet{rem(d, funcNumPart)} = cat(1, ...
-            funcPartSet{rem(d, funcNumPart)}, funcDimSet(d));
+    ind = rem(d, funcNumPart);
+    if ind == 0
+        ind = funcNumPart;
     end
+    funcPartSet{ind} = cat(1, funcPartSet{ind}, funcDimSet(d));
 end
 
 for p = 1 : length(funcPartSet)
