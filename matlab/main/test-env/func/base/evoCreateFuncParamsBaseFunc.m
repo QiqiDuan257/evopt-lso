@@ -1,0 +1,26 @@
+function funcParams = evoCreateFuncParamsBaseFunc(funcParam)
+% Create a set of `FuncParam` for the Base Function.
+if ~isfield(funcParam, 'funcDims')
+    funcDims = [2 1e1 1e2 1e3 2e3 4e3 6e3 8e3 1e4];
+else
+    funcDims = funcParam.funcDims;
+end
+
+if ~isfield(funcParam, 'funcNumParts')
+    funcNumParts = max(2, funcDims / 2);
+else
+    funcNumParts = funcParam.funcNumParts;
+end
+
+if ~isfield(funcParam, 'funcUB')
+    funcUB = 100;
+else
+    funcUB = funcParam.funcUB;
+end
+
+funcParams = cell(length(funcDims), 1);
+for d = 1 : length(funcDims)
+    funcParams{d} = evoFuncParams(funcParam.funcName, funcDims(d), funcUB);
+    funcParams{d}.funcNumPart = funcNumParts(d);
+end
+end
