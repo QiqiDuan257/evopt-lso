@@ -36,7 +36,11 @@ end
 
 % outFile
 if ~isfield(algoParam, 'algoOutFile')
-    algoParam.algoOutFile = sprintf('evoPCMAES_%s_D%d', funcName, funcDim);
+    if ischar(funcName) || isstring(funcName)
+        algoParam.algoOutFile = sprintf('evoPCMAES_%s_D%d', funcName, funcDim);
+    else
+        algoParam.algoOutFile = sprintf('evoPCMAES_D%d', funcDim);
+    end
 end
 outFile = algoParam.algoOutFile;
 if ~ischar(outFile) && ~isstring(outFile)
