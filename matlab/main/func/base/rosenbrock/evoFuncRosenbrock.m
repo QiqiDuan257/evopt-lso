@@ -1,0 +1,6 @@
+function y = evoFuncRosenbrock(X)
+funcDim = size(X, 1);
+y = 100 * sum(((X(1 : (funcDim - 1), :) .^ 2) - ...
+    X(2 : funcDim, :)) .^ 2, 1) + ...
+    sum((X(1 : (funcDim - 1), :) - 1) .^ 2, 1);
+end
