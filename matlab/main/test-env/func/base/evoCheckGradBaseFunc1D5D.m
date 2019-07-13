@@ -3,7 +3,7 @@ function evoCheckGradBaseFunc1D5D(funcGrad, y1D, y5D, toleration)
 %   the 1-D and 5-D cases via a total number of 12 test samples.
 %
 % Input ->
-%   funcName   : function name (char or string)
+%   funcGrad   : function name (char or string)
 %   y1D        : function gradients of 5 test samples (1 * 5 vector)
 %   y5D        : function gradients of 7 test samples (5 * 7 matrix)
 %   toleration : error toleration (scalar),
