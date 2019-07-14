@@ -10,7 +10,7 @@ algoParam.algoOutFEval = false;
 algoParam.algoOutFreq = 100;
 funcParam = evoFuncParams('evoFuncSphere', 2, 5, -2);
 [maxFEval, iniSeed, stopy, stopt, outFEval, outFreq, ...
-    popSize, iniX, outFile, stepSize, outCov] = ...
+    popSize, iniX, outFile, stepSize, outCov, corULB] = ...
     evoCheckCMAES(algoParam, funcParam);
 disp(maxFEval); % 2000
 disp(iniSeed); % 7
@@ -25,6 +25,7 @@ disp(iniX);
 disp(outFile); % evoCMAES_evoFuncSphere_D2
 disp(stepSize); % 0.7
 disp(outCov); % 0
+disp(corULB); % 0
 
 %%
 clear; clc;
@@ -106,7 +107,7 @@ algoParam.algoIniSeed = 7;
 algoParam.algoStepSize = 1.1;
 funcParam = evoFuncParams('evoFuncSphere', 2, 5, -2);
 [maxFEval, iniSeed, stopy, stopt, outFEval, outFreq, ...
-    popSize, iniX, outFile, stepSize, outCov] = ...
+    popSize, iniX, outFile, stepSize, outCov, corULB] = ...
     evoCheckCMAES(algoParam, funcParam);
 disp(maxFEval); % 2000
 disp(iniSeed); % 7
@@ -119,6 +120,7 @@ disp(size(iniX)); % 2 1
 disp(outFile); % evoCMAES_evoFuncSphere_D2
 disp(stepSize); % 1.1
 disp(outCov); % 0
+disp(corULB); % 0
 
 %% `algoStepSize` should be a float scalar.
 clear; clc;
@@ -134,7 +136,7 @@ algoParam.algoIniSeed = 7;
 algoParam.algoOutCov = true;
 funcParam = evoFuncParams('evoFuncSphere', 2, 5, -2);
 [maxFEval, iniSeed, stopy, stopt, outFEval, outFreq, ...
-    popSize, iniX, outFile, stepSize, outCov] = ...
+    popSize, iniX, outFile, stepSize, outCov, corULB] = ...
     evoCheckCMAES(algoParam, funcParam);
 disp(maxFEval); % 2000
 disp(iniSeed); % 7
@@ -147,10 +149,40 @@ disp(size(iniX)); % 2 1
 disp(outFile); % evoCMAES_evoFuncSphere_D2
 disp(stepSize); % 0.7
 disp(outCov); % 1
+disp(corULB); % 0
 
 %% `algoOutCov` should be a logical scalar.
 clear; clc;
 algoParam.algoMaxFEval = 2000;
 algoParam.algoOutCov = 1;
+funcParam = evoFuncParams('evoFuncSphere', 2, 5, -2);
+evoCheckCMAES(algoParam, funcParam);
+
+%%
+clear; clc;
+algoParam.algoMaxFEval = 2000;
+algoParam.algoIniSeed = 7;
+algoParam.algoCorULB = true;
+funcParam = evoFuncParams('evoFuncSphere', 2, 5, -2);
+[maxFEval, iniSeed, stopy, stopt, outFEval, outFreq, ...
+    popSize, iniX, outFile, stepSize, outCov, corULB] = ...
+    evoCheckCMAES(algoParam, funcParam);
+disp(maxFEval); % 2000
+disp(iniSeed); % 7
+disp(stopy); % -Inf
+disp(stopt); % 7200
+disp(outFEval); % 1
+disp(outFreq); % 1000
+disp(popSize); % 6
+disp(size(iniX)); % 2 1
+disp(outFile); % evoCMAES_evoFuncSphere_D2
+disp(stepSize); % 0.7
+disp(outCov); % 0
+disp(corULB); % 1
+
+%% `algoCorULB` should be a logical scalar.
+clear; clc;
+algoParam.algoMaxFEval = 2000;
+algoParam.algoCorULB = 1;
 funcParam = evoFuncParams('evoFuncSphere', 2, 5, -2);
 evoCheckCMAES(algoParam, funcParam);
