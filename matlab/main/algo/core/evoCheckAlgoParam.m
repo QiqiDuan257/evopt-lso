@@ -36,20 +36,4 @@ algoStopt = algoParam.algoStopt;
 if ~isscalar(algoStopt) || ~isnumeric(algoStopt) || isnan(algoStopt)
     error('`algoStopt` should be a non-nan numeric scalar.');
 end
-
-% algoOutFEval
-if ~isfield(algoParam, 'algoOutFEval')
-    algoParam.algoOutFEval = true; % output FEval curve
-end
-if ~isscalar(algoParam.algoOutFEval) || ~islogical(algoParam.algoOutFEval)
-    error('`algoOutFEval` should be a logical scalar.');
-end
-
-% algoOutFreq
-if ~isfield(algoParam, 'algoOutFreq')
-    algoParam.algoOutFreq = 1000; % output frequency of FEval curve
-end
-if ~evoCheckIsPosInt(algoParam.algoOutFreq)
-    error('`algoOutFreq` should be a positive integer.');
-end
 end
