@@ -1,10 +1,8 @@
-function [maxFEval, iniSeed, stopy, stopt, outFEval, outFreq] = ...
+function [algoParam, maxFEval, iniSeed, stopy, stopt] = ...
     evoCheckGetAlgoParam(algoParam)
 algoParam = evoCheckAlgoParam(algoParam);
 maxFEval = algoParam.algoMaxFEval;
 iniSeed = algoParam.algoIniSeed;
 stopy = algoParam.algoStopy;
 stopt = algoParam.algoStopt;
-outFEval = algoParam.algoOutFEval;
-outFreq = algoParam.algoOutFreq;
 end
