@@ -1,5 +1,5 @@
 function [maxFEval, iniSeed, stopy, stopt, outFEval, outFreq, ...
-    popSize, iniX, outFile, stepSize, outCov] = ...
+    popSize, iniX, outFile, stepSize, outCov, corULB] = ...
     evoCheckCMAES(algoParam, funcParam)
 % Check whether all the settings of `algoParam` are right for CMAES.
 [maxFEval, iniSeed, stopy, stopt, outFEval, outFreq] = ...
@@ -59,5 +59,14 @@ end
 outCov = algoParam.algoOutCov;
 if ~isscalar(outCov) || ~islogical(outCov)
     error('`algoOutCov` should be a logical scalar.');
+end
+
+% algoCorULB
+if ~isfield(algoParam, 'algoCorULB')
+    algoParam.algoCorULB = false;
+end
+corULB = algoParam.algoCorULB;
+if ~isscalar(corULB) || ~islogical(corULB)
+    error('`algoCorULB` should be a logical scalar.');
 end
 end
