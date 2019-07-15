@@ -28,12 +28,12 @@ if ~isnumeric(iniX) || any(size(iniX) ~= [funcDim popSize])
     error('`algoIniX` should be a %d * %d numeric matrix.', ...
         funcDim, popSize);
 end
-outIniUB = iniX > repmat(funcIniUB, 1, popSize);
-outIniLB = iniX < repmat(funcIniLB, 1, popSize);
-if any(outIniUB(:))
+indXOUB = iniX > repmat(funcIniUB, 1, popSize);
+indXOLB = iniX < repmat(funcIniLB, 1, popSize);
+if any(indXOUB(:))
     error('`algoIniX` should not be out of upper search bound.');
 end
-if any(outIniLB(:))
+if any(indXOLB(:))
     error('`algoIniX` should not be out of lower search bound.');
 end
 end
