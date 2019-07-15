@@ -1,7 +1,7 @@
-function [maxFEval, iniSeed, stopy, stopt, outFEval, outFreq, ...
-    popSize, iniX, outFile] = evoCheckRS(algoParam, funcParam)
+function [algoParam, maxFEval, stopy, stopt, popSize, iniX] = ...
+    evoCheckRS(algoParam, funcParam)
 % Check whether all the settings of `algoParam` are right for RS.
-[maxFEval, iniSeed, stopy, stopt, outFEval, outFreq] = ...
+[algoParam, maxFEval, iniSeed, stopy, stopt] = ...
     evoCheckGetAlgoParam(algoParam);
 
 funcDim = funcParam.funcDim;
@@ -25,24 +25,15 @@ if ~isfield(algoParam, 'algoIniX')
 end
 iniX = algoParam.algoIniX;
 if ~isnumeric(iniX) || any(size(iniX) ~= [funcDim popSize])
-    error('`algoIniX` should be a %d * %d numeric matrix.', funcDim, popSize);
+    error('`algoIniX` should be a %d * %d numeric matrix.', ...
+        funcDim, popSize);
 end
-outUB = iniX > repmat(funcIniUB, 1, popSize);
-outLB = iniX < repmat(funcIniLB, 1, popSize);
-if any(outUB(:))
+outIniUB = iniX > repmat(funcIniUB, 1, popSize);
+outIniLB = iniX < repmat(funcIniLB, 1, popSize);
+if any(outIniUB(:))
     error('`algoIniX` should not be out of upper search bound.');
 end
-if any(outLB(:))
+if any(outIniLB(:))
     error('`algoIniX` should not be out of lower search bound.');
-end
-
-% outFile
-if ~isfield(algoParam, 'algoOutFile')
-    algoParam.algoOutFile = sprintf('evoRS_%s_D%d', ...
-        funcParam.funcName, funcDim);
-end
-outFile = algoParam.algoOutFile;
-if ~ischar(outFile) && ~isstring(outFile)
-    error('`algoOutFile` should be of char or string type.');
 end
 end
