@@ -1,7 +1,7 @@
 function evoCompTimeFEvalBaseFunc(varargin)
-% Compare (plot) different Time of Function Evaluation on the Base Function.
+% Compare (plot) Time of Function Evaluations on the Base Function.
 startRun = tic;
-fprintf([evoCreateLine(14, '#') ' * timeFEval * ' evoCreateLine(14, '#') '\n']);
+fprintf([evoCreateLine(14) ' * timeFEval * ' evoCreateLine(14) '\n']);
 figure(20190703);
 labels = varargin{nargin};
 
