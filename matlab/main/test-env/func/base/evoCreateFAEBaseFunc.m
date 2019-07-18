@@ -16,7 +16,7 @@ for f = 1 : length(funcParams)
         funcParam.funcName, funcParams{f}.funcDim);
     ccFEval = statOptRes{f}.ccFEval;
     save(evoCreateFEvalFile(ccFEvalFile), 'ccFEval');
-    statOptRes{f}.ccFEval = evoZipFEvalFile(ccFEval, statOptRes{f}.numFEval);
+    statOptRes{f}.ccFEval = evoZipCcFEval(ccFEval, statOptRes{f}.numFEval);
     statOptRes{f}.algoParam = rmfield(statOptRes{f}.algoParam, 'algoIniX');
     timeFEvalFile = timeFEvalFile + toc(startFEvalFile);
 end
