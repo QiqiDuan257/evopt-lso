@@ -19,7 +19,8 @@ for a = 1 : (nargin - 1)
     statOptRes = DATA.statOptRes;
     for f = 1 : length(funcParams)
         if isfield(statOptRes{f}, 'numXO')
-            ratioXOs(f, a) = statOptRes{f}.numXO / statOptRes{f}.numFEval;
+            ratioXOs(f, a) = 100 * ...
+                statOptRes{f}.numXO / statOptRes{f}.numFEval;
         else
             ratioXOs(f, a) = 0;
         end
