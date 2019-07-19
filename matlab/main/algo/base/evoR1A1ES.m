@@ -6,6 +6,12 @@ function optRes = evoR1A1ES(funcParam, algoParam)
 %   algoParam : algorithm parameters (struct)
 % Output <-
 %   optRes    : optimization results (struct)
+%
+% Reference:
+%   Back, T., Hoffmeister, F. and Schwefel, H.P., 1991, July.
+%       A survey of evolution strategies. In Proceedings of the Fourth
+%       International Conference on Genetic Algorithms (Vol. 2, No. 9).
+%       Morgan Kaufmann Publishers, San Mateo, CA.
 startRun = tic; % start timing
 ccFEval = []; % initialize convergence curve of function evaluations
 
