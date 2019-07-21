@@ -111,3 +111,6 @@ venv.bak/
 
 ### ignore all files of the original algorithm ###
 .evoOrigAlgo/
+
+### ignore all MAT files ###
+*.mat
