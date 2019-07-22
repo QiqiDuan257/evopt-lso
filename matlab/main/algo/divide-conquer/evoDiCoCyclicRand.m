@@ -8,6 +8,11 @@ function funcParam = evoDiCoCyclicRand(funcParam)
 % Output <-
 %   funcParam: function parameters (struct)
 %       +> funcPartSet - partition set of the dimension indexes (cell)
+%
+% Reference:
+%   Yang, Z., Tang, K. and Yao, X., 2008.
+%   Large scale evolutionary optimization using cooperative coevolution.
+%   Information Sciences, 178(15), pp.2985-2999.
 if ~isfield(funcParam, 'funcDim')
     error('`funcDim` should be a field of `funcParam`.');
 else
