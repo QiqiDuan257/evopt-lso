@@ -1,0 +1,19 @@
+*** funcDim: 2 + algoName: evoRS + maxFEval: 200000 ***
+    opty = +1.3837e-01 | runtime = 1.97e-01 | timeFEval = 1.35e-01 | numFEval = 200000 | timeCcFEval = 5.24e-03 | stopFlag = maxFEval
+*** funcDim: 10 + algoName: evoRS + maxFEval: 1000000 ***
+    opty = +1.0965e+08 | runtime = 4.84e-01 | timeFEval = 2.28e-01 | numFEval = 1000000 | timeCcFEval = 1.23e-02 | stopFlag = maxFEval
+*** funcDim: 100 + algoName: evoRS + maxFEval: 10000000 ***
+    opty = +2.3053e+11 | runtime = 2.69e+01 | timeFEval = 1.13e+01 | numFEval = 10000000 | timeCcFEval = 1.48e-01 | stopFlag = maxFEval
+*** funcDim: 1000 + algoName: evoRS + maxFEval: 100000000 ***
+    opty = +7.1851e+12 | runtime = 2.77e+03 | timeFEval = 1.50e+03 | numFEval = 100000000 | timeCcFEval = 2.40e+00 | stopFlag = maxFEval
+*** funcDim: 2000 + algoName: evoRS + maxFEval: 200000000 ***
+    opty = +1.6518e+13 | runtime = 1.44e+04 | timeFEval = 8.99e+03 | numFEval = 188439000 | timeCcFEval = 4.84e+00 | stopFlag = stopt
+*** funcDim: 4000 + algoName: evoRS + maxFEval: 400000000 ***
+    opty = +3.8510e+13 | runtime = 1.44e+04 | timeFEval = 9.98e+03 | numFEval = 70685000 | timeCcFEval = 2.02e+00 | stopFlag = stopt
+*** funcDim: 6000 + algoName: evoRS + maxFEval: 600000000 ***
+    opty = +5.9939e+13 | runtime = 1.44e+04 | timeFEval = 1.05e+04 | numFEval = 42999000 | timeCcFEval = 1.19e+00 | stopFlag = stopt
+*** funcDim: 8000 + algoName: evoRS + maxFEval: 800000000 ***
+    opty = +8.1615e+13 | runtime = 1.44e+04 | timeFEval = 1.08e+04 | numFEval = 30415000 | timeCcFEval = 7.76e-01 | stopFlag = stopt
+*** funcDim: 10000 + algoName: evoRS + maxFEval: 1000000000 ***
+    opty = +1.0395e+14 | runtime = 1.44e+04 | timeFEval = 1.11e+04 | numFEval = 22243000 | timeCcFEval = 6.11e-01 | stopFlag = stopt
+$-runtime-$: 7.48898e+04.
