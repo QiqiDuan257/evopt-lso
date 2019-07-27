@@ -30,12 +30,20 @@ y = feval(funcName, X);
 numFEval = size(X, 2);
 threshold = min(abs(y)) * threshold;
 
+startCcFEval = tic;
+ccFEval = y';
+timeCcFEval = toc(startCcFEval);
+
 % generate an interaction matrix according to the partition threshold
 intMat = zeros(funcDim, funcDim);
 
 x1 = funcLB;
 y1 = feval(funcName, x1);
 numFEval = numFEval + 1;
+
+startCcFEval = tic;
+ccFEval = cat(1, ccFEval, y1);
+timeCcFEval = timeCcFEval + toc(startCcFEval);
 
 y2s = Inf * ones(funcDim, 1);
 for d = 1 : funcDim
@@ -45,6 +53,10 @@ for d = 1 : funcDim
     numFEval = numFEval + 1;
 end
 
+startCcFEval = tic;
+ccFEval = cat(1, ccFEval, y2s);
+timeCcFEval = timeCcFEval + toc(startCcFEval);
+
 y3s = Inf * ones(funcDim, 1);
 for d = 1 : funcDim
     x3 = x1;
@@ -52,6 +64,10 @@ for d = 1 : funcDim
     y3s(d) = feval(funcName, x3);
     numFEval = numFEval + 1;
 end
+
+startCcFEval = tic;
+ccFEval = cat(1, ccFEval, y3s);
+timeCcFEval = timeCcFEval + toc(startCcFEval);
 
 for i = 1 : (funcDim - 1)
     for j = (i + 1) : funcDim
@@ -62,6 +78,10 @@ for i = 1 : (funcDim - 1)
         numFEval = numFEval + 1;
         intMat(i, j) = abs((y1 - y2s(i)) - (y3s(j) - y4));
         intMat(j, i) = intMat(i, j);
+        
+        startCcFEval = tic;
+        ccFEval = cat(1, ccFEval, y4);
+        timeCcFEval = timeCcFEval + toc(startCcFEval);
     end
 end
 
@@ -79,5 +99,7 @@ end
 funcPartSet = funcPartSet(~cellfun('isempty', funcPartSet));
 
 funcParam.funcPartSet = funcPartSet;
+funcParam.funcCcFEval = ccFEval;
+funcParam.funcTimeCcFEval = timeCcFEval;
 funcParam.funcNumFEval = numFEval;
 end
