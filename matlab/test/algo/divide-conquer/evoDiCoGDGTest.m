@@ -35,3 +35,13 @@ funcName = @(X)(sum(X(101 : 150, :), 1) .^ 2 + ...
     sum(X(151 : 199, :), 1) .^ 2);
 funcParam = evoFuncParams(funcName, 200, 100);
 funcParam = evoDiCoGDG(funcParam);
+disp(funcParam);
+
+%%
+clear; clc;
+funcName = @(X)(sum(X([1 3 5], :), 1) .^ 2 + ...
+    sum(X(2, :), 1) .^ 2 + ...
+    sum(X(4, :), 1) .^ 2 + ...
+    sum(X(6 : 10, :), 1) .^ 2);
+funcParam = evoFuncParams(funcName, 10, 100);
+funcParam = evoDiCoGDG(funcParam);
