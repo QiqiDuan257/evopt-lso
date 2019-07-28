@@ -4,6 +4,8 @@
 
 * Bucci, A. and Pollack, J.B., 2002. A mathematical framework for the study of coevolution. In FOGA (Vol. 7, pp. 221-235). - [pdf](http://www.demo.cs.brandeis.edu/papers/bucci_foga_po_02.pdf) -
 
+* Wiegand, R.P. and Sarma, J., 2004, September. Spatial embedding and loss of gradient in cooperative coevolutionary algorithms. In International Conference on Parallel Problem Solving from Nature (pp. 912-921). Springer, Berlin, Heidelberg. - [pdf](https://link.springer.com/chapter/10.1007%2F978-3-540-30217-9_92) -
+
 * Bucci, A. and Pollack, J.B., 2005, June. On identifying global optima in cooperative coevolution. In Proceedings of the 7th Annual Conference on Genetic and Evolutionary Computation (pp. 539-544). ACM. - [pdf](https://dl.acm.org/citation.cfm?id=1068098) -
 
 * Yang, Z., Tang, K. and Yao, X., 2008. Large scale evolutionary optimization using cooperative coevolution. Information Sciences, 178(15), pp.2985-2999. - [www](https://www.sciencedirect.com/science/article/pii/S002002550800073X) | [MATLAB](http://staff.ustc.edu.cn/~ketang/codes/DECCG.zip) -
