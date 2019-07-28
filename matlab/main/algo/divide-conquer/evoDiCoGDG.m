@@ -5,7 +5,8 @@ function funcParam = evoDiCoGDG(funcParam)
 %   funcParam: function parameters (struct)
 % Output <-
 %   funcParam: function parameters (struct)
-%       +> funcPartSet - partition set of the dimension indexes (cell)
+%       +> funcPartSet  - partition set of the dimension indexes (cell)
+%       +> funcPartType - partition types of `funcPartSet` (cell)
 %       +> funcNumFEval - number of function evaluations (int scalar)
 %
 % Reference:
@@ -89,16 +90,21 @@ intMat = intMat > threshold;
 labels = evoDiCoGraphPart(intMat);
 
 funcPartSet = cell(max(labels) + 1, 1);
+funcPartType = cell(max(labels) + 1, 1);
 for d = 1 : length(labels)
     if sum(labels(d) == labels) > 1
         funcPartSet{labels(d)} = cat(1, funcPartSet{labels(d)}, d);
+        funcPartType{labels(d)} = 'nonSep';
     else
         funcPartSet{end} = cat(1, funcPartSet{end}, d);
+        funcPartType{end} = 'sep';
     end
 end
 funcPartSet = funcPartSet(~cellfun('isempty', funcPartSet));
+funcPartType = funcPartType(~cellfun('isempty', funcPartType));
 
 funcParam.funcPartSet = funcPartSet;
+funcParam.funcPartType = funcPartType;
 funcParam.funcCcFEval = ccFEval;
 funcParam.funcTimeCcFEval = timeCcFEval;
 funcParam.funcNumFEval = numFEval;
