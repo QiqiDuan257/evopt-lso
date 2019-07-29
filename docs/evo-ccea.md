@@ -10,6 +10,8 @@
 
 * Popovici, E. and De Jong, K., 2005, June. Understanding cooperative co-evolutionary dynamics via simple fitness landscapes. In Proceedings of the 7th Annual Conference on Genetic and Evolutionary Computation (pp. 507-514). ACM. - [pdf](https://dl.acm.org/citation.cfm?id=1068094) -
 
+* Popovici, E. and De Jong, K., 2006. The dynamics of the best individuals in co-evolution. Natural Computing, 5(3), pp.229-255. - [pdf](https://link.springer.com/article/10.1007%2Fs11047-006-9000-1) -
+
 * Yang, Z., Tang, K. and Yao, X., 2008. Large scale evolutionary optimization using cooperative coevolution. Information Sciences, 178(15), pp.2985-2999. - [www](https://www.sciencedirect.com/science/article/pii/S002002550800073X) | [MATLAB](http://staff.ustc.edu.cn/~ketang/codes/DECCG.zip) -
 
 * Omidvar, M.N., Li, X., Mei, Y. and Yao, X., 2014. Cooperative co-evolution with differential grouping for large scale optimization. IEEE Transactions on Evolutionary Computation, 18(3), pp.378-393. - [pdf](https://ieeexplore.ieee.org/abstract/document/6595612/) | [MATLAB](https://bitbucket.org/mno/differential-grouping/src/master/) -
