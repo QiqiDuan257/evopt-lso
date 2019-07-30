@@ -17,3 +17,5 @@
 * Omidvar, M.N., Li, X., Mei, Y. and Yao, X., 2014. Cooperative co-evolution with differential grouping for large scale optimization. IEEE Transactions on Evolutionary Computation, 18(3), pp.378-393. - [pdf](https://ieeexplore.ieee.org/abstract/document/6595612/) | [MATLAB](https://bitbucket.org/mno/differential-grouping/src/master/) -
 
 * Mei, Y., Omidvar, M.N., Li, X. and Yao, X., 2016. A competitive divide-and-conquer algorithm for unconstrained large-scale black-box optimization. ACM Transactions on Mathematical Software (TOMS), 42(2), pp.13-24. - [pdf](https://dl.acm.org/citation.cfm?id=2791291) | [MATLAB](https://ww2.mathworks.cn/matlabcentral/fileexchange/45783-the-cc-gdg-cmaes-algorithm) -
+
+* Yang, M., Omidvar, M.N., Li, C., Li, X., Cai, Z., Kazimipour, B. and Yao, X., 2016. Efficient resource allocation in cooperative co-evolution for large-scale global optimization. IEEE Transactions on Evolutionary Computation, 21(4), pp.493-505. - [pdf](https://ieeexplore.ieee.org/document/7784772) -
