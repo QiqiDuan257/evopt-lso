@@ -37,7 +37,7 @@ for e = 1 : expeNum
         optRes{e}.optx(1), optRes{e}.optx(end));
     
     startFEvalFile = tic;
-    ccFEvalFile = sprintf('%s_%s', algoName, funcName);
+    ccFEvalFile = sprintf('%s_%s_%02d', algoName, funcName, e);
     ccFEval = optRes{e}.ccFEval;
     save(evoCreateFEvalFile(ccFEvalFile), 'ccFEval');
     optRes{e}.ccFEval = evoZipCcFEval(ccFEval, optRes{e}.numFEval);
