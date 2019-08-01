@@ -21,3 +21,5 @@
 * Mei, Y., Omidvar, M.N., Li, X. and Yao, X., 2016. A competitive divide-and-conquer algorithm for unconstrained large-scale black-box optimization. ACM Transactions on Mathematical Software (TOMS), 42(2), pp.13-24. - [pdf](https://dl.acm.org/citation.cfm?id=2791291) | [MATLAB](https://ww2.mathworks.cn/matlabcentral/fileexchange/45783-the-cc-gdg-cmaes-algorithm) -
 
 * Yang, M., Omidvar, M.N., Li, C., Li, X., Cai, Z., Kazimipour, B. and Yao, X., 2016. Efficient resource allocation in cooperative co-evolution for large-scale global optimization. IEEE Transactions on Evolutionary Computation, 21(4), pp.493-505. - [pdf](https://ieeexplore.ieee.org/document/7784772) -
+
+* Ma, X., Li, X., Zhang, Q., Tang, K., Liang, Z., Xie, W. and Zhu, Z., 2019. A survey on cooperative co-evolutionary algorithms. IEEE Transactions on Evolutionary Computation, 23(3), pp.421-441. - [pdf](https://ieeexplore.ieee.org/abstract/document/8454482) -
