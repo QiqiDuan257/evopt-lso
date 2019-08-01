@@ -4,6 +4,8 @@
 
 * Potter, M.A. and De Jong, K.A., 2000. Cooperative coevolution: An architecture for evolving coadapted subcomponents. Evolutionary Computation, 8(1), pp.1-29. - [pdf](https://www.mitpressjournals.org/doi/abs/10.1162/106365600568086) -
 
+* Ficici, S.G. and Pollack, J.B., 2000, September. A game-theoretic approach to the simple coevolutionary algorithm. In International Conference on Parallel Problem Solving from Nature (pp. 467-476). Springer, Berlin, Heidelberg. - [pdf](https://link.springer.com/chapter/10.1007/3-540-45356-3_46) -
+
 * Bucci, A. and Pollack, J.B., 2002. A mathematical framework for the study of coevolution. In FOGA (Vol. 7, pp. 221-235). - [pdf](http://www.demo.cs.brandeis.edu/papers/bucci_foga_po_02.pdf) -
 
 * Wiegand, R.P. and Sarma, J., 2004, September. Spatial embedding and loss of gradient in cooperative coevolutionary algorithms. In International Conference on Parallel Problem Solving from Nature (pp. 912-921). Springer, Berlin, Heidelberg. - [pdf](https://link.springer.com/chapter/10.1007%2F978-3-540-30217-9_92) -
