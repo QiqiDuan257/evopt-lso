@@ -10,6 +10,8 @@
 
 * Wiegand, R.P., Liles, W.C. and De Jong, K.A., 2002. Analyzing cooperative coevolution with evolutionary game theory. In IEEE Congress on Evolutionary Computation (pp. 1600-1605). IEEE. - [pdf](https://ieeexplore.ieee.org/abstract/document/1004481) -
 
+* Wiegand, R.P., 2003. An analysis of cooperative coevolutionary algorithms. Doctoral Dissertation, George Mason University. - [pdf](http://www.tesseract.org/paul/papers/rpw-dissertation.pdf) -
+
 * Wiegand, R.P. and Sarma, J., 2004, September. Spatial embedding and loss of gradient in cooperative coevolutionary algorithms. In International Conference on Parallel Problem Solving from Nature (pp. 912-921). Springer, Berlin, Heidelberg. - [pdf](https://link.springer.com/chapter/10.1007%2F978-3-540-30217-9_92) -
 
 * Bucci, A. and Pollack, J.B., 2005, June. On identifying global optima in cooperative coevolution. In Proceedings of the 7th Annual Conference on Genetic and Evolutionary Computation (pp. 539-544). ACM. - [pdf](https://dl.acm.org/citation.cfm?id=1068098) -
