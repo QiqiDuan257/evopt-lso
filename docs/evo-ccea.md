@@ -22,6 +22,8 @@
 
 * Yang, Z., Tang, K. and Yao, X., 2008. Large scale evolutionary optimization using cooperative coevolution. Information Sciences, 178(15), pp.2985-2999. - [www](https://www.sciencedirect.com/science/article/pii/S002002550800073X) | [MATLAB](http://staff.ustc.edu.cn/~ketang/codes/DECCG.zip) -
 
+* Panait, L., Tuyls, K. and Luke, S., 2008. Theoretical advantages of lenient learners: An evolutionary game theoretic perspective. Journal of Machine Learning Research, 9(Mar), pp.423-457. - [pdf](http://www.jmlr.org/papers/volume9/panait08a/panait08a.pdf) -
+
 * Omidvar, M.N., Li, X., Mei, Y. and Yao, X., 2014. Cooperative co-evolution with differential grouping for large scale optimization. IEEE Transactions on Evolutionary Computation, 18(3), pp.378-393. - [pdf](https://ieeexplore.ieee.org/abstract/document/6595612/) | [MATLAB](https://bitbucket.org/mno/differential-grouping/src/master/) -
 
 * Mei, Y., Omidvar, M.N., Li, X. and Yao, X., 2016. A competitive divide-and-conquer algorithm for unconstrained large-scale black-box optimization. ACM Transactions on Mathematical Software (TOMS), 42(2), pp.13-24. - [pdf](https://dl.acm.org/citation.cfm?id=2791291) | [MATLAB](https://ww2.mathworks.cn/matlabcentral/fileexchange/45783-the-cc-gdg-cmaes-algorithm) -
