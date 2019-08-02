@@ -1,0 +1,19 @@
+*** funcDim: 2 + algoName: evoHCCEAPAS + maxFEval: 200000 ***
+    opty = +1.4200e-13 | runtime = 3.88e-01 | timeFEval = 1.26e-01 | numFEval = 789 | timeCcFEval = 3.77e-03 | stopFlag = stopy
+*** funcDim: 10 + algoName: evoHCCEAPAS + maxFEval: 1000000 ***
+    opty = +9.1271e-12 | runtime = 9.09e-01 | timeFEval = 2.20e-01 | numFEval = 26160 | timeCcFEval = 2.95e-02 | stopFlag = stopy
+*** funcDim: 100 + algoName: evoHCCEAPAS + maxFEval: 10000000 ***
+    opty = +8.6638e-11 | runtime = 6.89e+00 | timeFEval = 2.38e+00 | numFEval = 309096 | timeCcFEval = 2.26e-01 | stopFlag = stopy
+*** funcDim: 1000 + algoName: evoHCCEAPAS + maxFEval: 100000000 ***
+    opty = +9.9361e-11 | runtime = 4.50e+02 | timeFEval = 2.23e+02 | numFEval = 11067187 | timeCcFEval = 1.10e+01 | stopFlag = stopy
+*** funcDim: 2000 + algoName: evoHCCEAPAS + maxFEval: 200000000 ***
+    opty = +9.9297e-11 | runtime = 1.64e+03 | timeFEval = 9.35e+02 | numFEval = 35405628 | timeCcFEval = 3.78e+01 | stopFlag = stopy
+*** funcDim: 4000 + algoName: evoHCCEAPAS + maxFEval: 400000000 ***
+    opty = +9.9874e-11 | runtime = 4.59e+03 | timeFEval = 2.78e+03 | numFEval = 98550849 | timeCcFEval = 9.09e+01 | stopFlag = stopy
+*** funcDim: 6000 + algoName: evoHCCEAPAS + maxFEval: 600000000 ***
+    opty = +2.0788e-10 | runtime = 7.20e+03 | timeFEval = 4.79e+03 | numFEval = 126909989 | timeCcFEval = 1.24e+02 | stopFlag = stopt
+*** funcDim: 8000 + algoName: evoHCCEAPAS + maxFEval: 800000000 ***
+    opty = +4.7139e-10 | runtime = 7.20e+03 | timeFEval = 5.05e+03 | numFEval = 115861763 | timeCcFEval = 1.09e+02 | stopFlag = stopt
+*** funcDim: 10000 + algoName: evoHCCEAPAS + maxFEval: 1000000000 ***
+    opty = +1.5466e-09 | runtime = 7.20e+03 | timeFEval = 5.42e+03 | numFEval = 80768926 | timeCcFEval = 1.03e+02 | stopFlag = stopt
+$-runtime-$: 2.83641e+04.
