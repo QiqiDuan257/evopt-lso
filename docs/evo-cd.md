@@ -6,4 +6,6 @@
 
 * Warga, J., 1963. Minimizing certain convex functions. Journal of the Society for Industrial and Applied Mathematics, 11(3), pp.588-593. - [pdf](https://epubs.siam.org/doi/pdf/10.1137/0111043) -
 
+* Zangwill, W.I., 1969. Nonlinear programming: A unified approach (Vol. 196, No. 9). Englewood Cliffs, NJ: Prentice-Hall.
+
 * Zadeh, N., 1970. A note on the cyclic coordinate ascent method. Management Science, 16(9), pp.642-644. - [pdf](https://pubsonline.informs.org/doi/pdf/10.1287/mnsc.16.9.642) -
