@@ -26,6 +26,8 @@
 
 * Panait, L., 2010. Theoretical convergence guarantees for cooperative coevolutionary algorithms. Evolutionary Computation, 18(4), pp.581-615. - [pdf](https://www.mitpressjournals.org/doi/abs/10.1162/EVCO_a_00004) -
 
+* Wu, S.X. and Banzhaf, W., 2010, July. A hierarchical cooperative evolutionary algorithm. In Proceedings of the 12th Annual Conference on Genetic and Evolutionary Computation (pp. 233-240). ACM. - [pdf](https://dl.acm.org/citation.cfm?id=1830527) -
+
 * Omidvar, M.N., Li, X., Mei, Y. and Yao, X., 2014. Cooperative co-evolution with differential grouping for large scale optimization. IEEE Transactions on Evolutionary Computation, 18(3), pp.378-393. - [pdf](https://ieeexplore.ieee.org/abstract/document/6595612/) | [MATLAB](https://bitbucket.org/mno/differential-grouping/src/master/) -
 
 * Gomes, J., Mariano, P. and Christensen, A.L., 2014, May. Avoiding convergence in cooperative coevolution with novelty search. In Proceedings of the International Conference on Autonomous Agents and Multi-Agent Systems (pp. 1149-1156). International Foundation for Autonomous Agents and Multiagent Systems. - [pdf](https://dl.acm.org/citation.cfm?id=2617428) -
