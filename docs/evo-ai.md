@@ -7,3 +7,5 @@
 ## Journals
 
 * IEEE Robotics & Automation Magazine - [www](https://www.ieee-ras.org/publications/ram) | [ieeexplore](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=100) -
+
+* IEEE Transactions on Evolutionary Computation - [www](https://cis.ieee.org/publications/t-evolutionary-computation) | [ieeexplore](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235) -
