@@ -6,6 +6,7 @@ figure(20190701);
 DATA = load(varargin{1});
 funcParams = DATA.funcParams;
 labels = varargin{nargin};
+cmap = colormap(hsv(nargin - 1));
 for f = 1 : length(funcParams)
     subplot(3, 3, f);
     maxFEval = 0;
@@ -29,6 +30,7 @@ for f = 1 : length(funcParams)
             if statOptRes{r}.funcParam.funcDim == funcParams{f}.funcDim
                 semilogy(statOptRes{r}.ccFEval(:, 1), ...
                     statOptRes{r}.ccFEval(:, 2), ...
+                    'Color', cmap(a, :), ...
                     'LineWidth', 1.5);
                 xlim([0 maxFEval]); hold on;
             end
