@@ -28,6 +28,8 @@
 
 * Wu, S.X. and Banzhaf, W., 2010, July. A hierarchical cooperative evolutionary algorithm. In Proceedings of the 12th Annual Conference on Genetic and Evolutionary Computation (pp. 233-240). ACM. - [pdf](https://dl.acm.org/citation.cfm?id=1830527) -
 
+  * Traulsen, A. and Nowak, M.A., 2006. Evolution of cooperation by multilevel selection. Proceedings of the National Academy of Sciences, 103(29), pp.10952-10955. - [pdf](https://www.pnas.org/content/103/29/10952.short) -
+
 * Omidvar, M.N., Li, X., Mei, Y. and Yao, X., 2014. Cooperative co-evolution with differential grouping for large scale optimization. IEEE Transactions on Evolutionary Computation, 18(3), pp.378-393. - [pdf](https://ieeexplore.ieee.org/abstract/document/6595612/) | [MATLAB](https://bitbucket.org/mno/differential-grouping/src/master/) -
 
 * Gomes, J., Mariano, P. and Christensen, A.L., 2014, May. Avoiding convergence in cooperative coevolution with novelty search. In Proceedings of the International Conference on Autonomous Agents and Multi-Agent Systems (pp. 1149-1156). International Foundation for Autonomous Agents and Multiagent Systems. - [pdf](https://dl.acm.org/citation.cfm?id=2617428) -
