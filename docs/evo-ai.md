@@ -13,3 +13,5 @@
 ## Conferences
 
 * International Joint Conferences on Artificial Intelligence (IJCAI) - [www](https://www.ijcai.org/) | [proceedings](https://www.ijcai.org/past_proceedings) -
+
+* The Association for the Advancement of Artificial Intelligence (AAAI) - [www](https://www.aaai.org/) | [proceedings](https://aaai.org/Library/AAAI/aaai-library.php) -
