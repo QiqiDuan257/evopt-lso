@@ -38,6 +38,8 @@
 
 * Yang, M., Omidvar, M.N., Li, C., Li, X., Cai, Z., Kazimipour, B. and Yao, X., 2016. Efficient resource allocation in cooperative co-evolution for large-scale global optimization. IEEE Transactions on Evolutionary Computation, 21(4), pp.493-505. - [pdf](https://ieeexplore.ieee.org/document/7784772) -
 
+* Gomes, J., Mariano, P. and Christensen, A.L., 2017. Novelty-driven cooperative coevolution. Evolutionary Computation, 25(2), pp.275-307. - [pdf](https://www.mitpressjournals.org/doi/pdf/10.1162/EVCO_a_00173) -
+
 * Ma, X., Li, X., Zhang, Q., Tang, K., Liang, Z., Xie, W. and Zhu, Z., 2019. A survey on cooperative co-evolutionary algorithms. IEEE Transactions on Evolutionary Computation, 23(3), pp.421-441. - [pdf](https://ieeexplore.ieee.org/abstract/document/8454482) -
 
 * Gomes, J., Mariano, P. and Christensen, A.L., 2019. Challenges in cooperative coevolution of physically heterogeneous robot teams. Natural Computing, 18(1), pp.29-46. - [pdf](https://link.springer.com/article/10.1007/s11047-016-9582-1) -
