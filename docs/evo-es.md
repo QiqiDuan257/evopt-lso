@@ -8,4 +8,6 @@
 
 * Beyer, H.G., 2001. The theory of evolution strategies. Springer Science & Business Media. - [pdf](https://www.springer.com/gp/book/9783540672975) -
 
+* Beyer, H.G., Schwefel, H.P. and Wegener, I., 2002. How to analyse evolutionary algorithms. Theoretical Computer Science, 287(1), pp.101-130. - [pdf](https://www.sciencedirect.com/science/article/pii/S0304397502001378/pdf?md5=19d470fe46c477c861120d5b6b94de2e&pid=1-s2.0-S0304397502001378-main.pdf) -
+
 * Chrabaszcz, P., Loshchilov, I. and Hutter, F., 2018. Back to basics: Benchmarking canonical evolution strategies for playing atari. In Proceedings of the 27th International Joint Conference on Artificial Intelligence. - [pdf](https://www.ijcai.org/proceedings/2018/0197.pdf) | [arxiv](https://arxiv.org/pdf/1802.08842.pdf) | [python](https://github.com/PatrykChrabaszcz/Canonical_ES_Atari) -
