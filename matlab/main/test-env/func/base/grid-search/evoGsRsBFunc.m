@@ -13,6 +13,7 @@ for ps = 1 : length(popSizes)
     algoParam.algoName = 'evoRS';
     algoParam.algoIniSeed = 20190101;
     algoParam.algoPopSize = popSize;
+    algoParam.algoStopt = 3600 * 4; % 4 hours
     evoCreateGsRsBFunc(funcParam, algoParam);
 end
 fprintf(sprintf('$-runtime-$: %7.5e.\n', toc(startRun)));
