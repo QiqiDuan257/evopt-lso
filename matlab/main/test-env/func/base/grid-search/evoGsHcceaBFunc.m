@@ -11,6 +11,7 @@ for p = 1 : length(funcNumParts)
     algoParam.algoName = 'evoHCCEAPAS';
     algoParam.algoIniSeed = 20190102;
     algoParam.algoCorXO = true;
+    algoParam.algoStopt = 3600 * 4; % 4 hours
     evoCreateGsHcceaBFunc(funcParam, algoParam);
 end
 fprintf(sprintf('$-runtime-$: %7.5e.\n', toc(startRun)));
