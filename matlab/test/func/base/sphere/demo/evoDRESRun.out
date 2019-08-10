@@ -1,0 +1,19 @@
+*** funcDim: 2 + algoName: evoDRES + maxFEval: 200000 ***
+    opty = +8.5801e-11 | runtime = 9.71e-02 | timeFEval = 1.06e-02 | numFEval = 385 | timeCcFEval = 2.08e-03 | stopFlag = stopy
+*** funcDim: 10 + algoName: evoDRES + maxFEval: 1000000 ***
+    opty = +7.7565e-11 | runtime = 6.53e-02 | timeFEval = 6.89e-03 | numFEval = 2421 | timeCcFEval = 1.14e-03 | stopFlag = stopy
+*** funcDim: 100 + algoName: evoDRES + maxFEval: 10000000 ***
+    opty = +9.8516e-11 | runtime = 4.40e-01 | timeFEval = 3.09e-02 | numFEval = 22458 | timeCcFEval = 5.01e-03 | stopFlag = stopy
+*** funcDim: 1000 + algoName: evoDRES + maxFEval: 100000000 ***
+    opty = +9.9588e-11 | runtime = 1.24e+01 | timeFEval = 1.05e+00 | numFEval = 263569 | timeCcFEval = 9.23e-02 | stopFlag = stopy
+*** funcDim: 2000 + algoName: evoDRES + maxFEval: 200000000 ***
+    opty = +9.9926e-11 | runtime = 3.66e+01 | timeFEval = 3.55e+00 | numFEval = 561523 | timeCcFEval = 1.94e-01 | stopFlag = stopy
+*** funcDim: 4000 + algoName: evoDRES + maxFEval: 400000000 ***
+    opty = +9.9937e-11 | runtime = 1.54e+02 | timeFEval = 5.39e+00 | numFEval = 1185885 | timeCcFEval = 2.39e-01 | stopFlag = stopy
+*** funcDim: 6000 + algoName: evoDRES + maxFEval: 600000000 ***
+    opty = +9.9948e-11 | runtime = 3.24e+02 | timeFEval = 1.20e+01 | numFEval = 1871731 | timeCcFEval = 3.59e-01 | stopFlag = stopy
+*** funcDim: 8000 + algoName: evoDRES + maxFEval: 800000000 ***
+    opty = +9.9974e-11 | runtime = 5.17e+02 | timeFEval = 1.81e+01 | numFEval = 2516641 | timeCcFEval = 4.71e-01 | stopFlag = stopy
+*** funcDim: 10000 + algoName: evoDRES + maxFEval: 1000000000 ***
+    opty = +9.9993e-11 | runtime = 8.16e+02 | timeFEval = 2.58e+01 | numFEval = 3228031 | timeCcFEval = 6.22e-01 | stopFlag = stopy
+$-runtime-$: 1.86341e+03.
