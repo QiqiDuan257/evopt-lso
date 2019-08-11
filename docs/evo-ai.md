@@ -17,3 +17,5 @@
 * The Association for the Advancement of Artificial Intelligence (AAAI) - [www](https://www.aaai.org/) | [proceedings](https://aaai.org/Library/AAAI/aaai-library.php) -
 
 * European Association for Artificial Intelligence (ECAI) - [www](https://eurai.org/activities/ECAI_conferences) | [proceedings](https://eurai.org/library/ECAI_proceedings)
+
+* Parallel Problem Solving from Nature (PPSN) - [www](https://ls11-www.cs.tu-dortmund.de/rudolph/ppsn) | [2020](https://ppsn2020.liacs.leidenuniv.nl/) -
