@@ -8,6 +8,8 @@
 
 * Hansen, N. and Ostermeier, A., 1996, May. Adapting arbitrary normal mutation distributions in evolution strategies: The covariance matrix adaptation. In Proceedings of IEEE International Conference on Evolutionary Computation (pp. 312-317). IEEE. - [pdf](https://ieeexplore.ieee.org/abstract/document/542381) -
 
+* Hansen, N., 2000, September. Invariance, self-adaptation and correlated mutations in evolution strategies. In International Conference on Parallel Problem Solving from Nature (pp. 355-364). Springer, Berlin, Heidelberg. - [pdf](https://link.springer.com/chapter/10.1007/3-540-45356-3_35) -
+
 * Beyer, H.G., 2001. The theory of evolution strategies. Springer Science & Business Media. - [pdf](https://www.springer.com/gp/book/9783540672975) -
 
 * Beyer, H.G., Schwefel, H.P. and Wegener, I., 2002. How to analyse evolutionary algorithms. Theoretical Computer Science, 287(1), pp.101-130. - [pdf](https://www.sciencedirect.com/science/article/pii/S0304397502001378/pdf?md5=19d470fe46c477c861120d5b6b94de2e&pid=1-s2.0-S0304397502001378-main.pdf) -
