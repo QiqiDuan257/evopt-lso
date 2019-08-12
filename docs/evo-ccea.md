@@ -24,6 +24,8 @@
 
 * Panait, L., Tuyls, K. and Luke, S., 2008. Theoretical advantages of lenient learners: An evolutionary game theoretic perspective. Journal of Machine Learning Research, 9(Mar), pp.423-457. - [pdf](http://www.jmlr.org/papers/volume9/panait08a/panait08a.pdf) -
 
+* Gomez, F., Schmidhuber, J. and Miikkulainen, R., 2008. Accelerated neural evolution through cooperatively coevolved synapses. Journal of Machine Learning Research, 9(May), pp.937-965. - [pdf](http://www.jmlr.org/papers/volume9/gomez08a/gomez08a.pdf) -
+
 * Panait, L., 2010. Theoretical convergence guarantees for cooperative coevolutionary algorithms. Evolutionary Computation, 18(4), pp.581-615. - [pdf](https://www.mitpressjournals.org/doi/abs/10.1162/EVCO_a_00004) -
 
 * Wu, S.X. and Banzhaf, W., 2010, July. A hierarchical cooperative evolutionary algorithm. In Proceedings of the 12th Annual Conference on Genetic and Evolutionary Computation (pp. 233-240). ACM. - [pdf](https://dl.acm.org/citation.cfm?id=1830527) -
